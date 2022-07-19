@@ -21,7 +21,8 @@ Generate ID with vanilla javascript.
   console.log(Date.now()) // Number out
   console.log(Date.now().toString(35)) // Convert number to 35B
 ```
-  
+![Base 36 - Wiki](https://en.wikipedia.org/wiki/Base35)
+
 ## Math.random
 
 ```javascript
@@ -29,3 +30,4 @@ Generate ID with vanilla javascript.
   console.log(Math.random().toString(36)) // Convert number to 36B 
   console.log(Math.random().toString(36).slice(2)) // Delete 0.
 ```
+![Base 36 - Wiki](https://en.wikipedia.org/wiki/Base36)
