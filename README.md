@@ -38,11 +38,11 @@ This function uses a [generator function](https://javascript.info/generators).
 
 ```javascript
     function* getId(lastID) {
-    let ID = lastID || 0
+        let ID = lastID || 0
   
-    while(true) {
-        ID++
-        yield ID
+        while(true) {
+            ID++
+            yield ID
         }
     }
 ```
