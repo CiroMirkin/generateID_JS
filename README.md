@@ -2,7 +2,7 @@
 
 Generate ID with vanilla javascript.
 
-## Genereta a ramdom ID
+## Genereta a random ID
 
 ```javascript
     const generateId = () =>{
